@@ -1,0 +1,18 @@
+type: custom:auto-entities
+show_empty: false  # Laat deze card alleen zien op de ophaaldag (false), Laat altijd zien (true)
+card:
+  type: glance
+  show_state: true
+  show_name: true
+  title: Afval vandaag
+  show_icon: true
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.afvalinfo_*
+      attributes:
+        is_collection_date_today: true
+  exclude:
+    - state: unknown
+    - entity_id: sensor.*_today
+    - entity_id: sensor.*_tomorrow
