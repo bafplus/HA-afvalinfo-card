@@ -2,12 +2,12 @@
 Hieronder een lijst van alle Lovelace cards. Deze kun je los op je dashboard plaatsen of bv samen een "Verticale stapel". 
 
 Inhoud:
-* Afvalkalender
-* Afvalkalender 2
-* Eerstvolgende afvalsoort(en)
-* Afval vandaag
-* Afval morgen
-* Afval vandaag en morgen Picture card
+* [Afvalkalender](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afvalkalender)
+* [Afvalkalender 2](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afvalkalender-2)
+* [Eerstvolgende afvalsoort(en)](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#eerstvolgende-afvalsoorten)
+* [Afval vandaag](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afval-vandaag)
+* [Afval morgen](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afval-morgen)
+* [Afval vandaag en morgen Picture card](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afval-vandaag-en-morgen-picture-card)
 
 ## Afvalkalender
 (screenshot)
