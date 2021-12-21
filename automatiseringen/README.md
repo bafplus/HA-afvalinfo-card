@@ -18,7 +18,7 @@ naar (bijvoorbeeld)
 ```yaml
 service: notify.mobile_app_gsm_bart
 ```
-Deze automatisering ondersteund meerdere afvalsoorten op 1 en dezelfde dag in 1 melding. Wil je voor elke afvalsoort een eigen melding moet je per afvalsoort een automatisering maken met de sensor van die afvalsoort in plaats van de "tomorrow" sensor.
+Deze automatisering ondersteund meerdere afvalsoorten op 1 en dezelfde dag in 1 melding. Wil je voor elke afvalsoort een eigen melding dan moet je per afvalsoort een automatisering maken met de sensor van die afvalsoort in plaats van de "tomorrow" sensor.
 ## Een slimme speaker een melding geven de dag voordat het afval naar buiten moet
 Deze automatisering laat een slimme speaker een gesproken bericht geven met welke soort(en) afval naar buiten moet.
 ### installatie
@@ -26,4 +26,4 @@ Kopieer de yaml code uit de [melding-tts.yaml](../automatiseringen/melding-tts.y
 ### Configuratie
 Zorg ervoor dat TTS goed is ingesteld en werkt. Zie https://www.home-assistant.io/integrations/tts/ . Pas de nodige sensoren aan, zie YAMl
 
-Deze automatisering ondersteund meerdere afvalsoorten op 1 en dezelfde dag in 1 melding. Wil je voor elke afvalsoort een eigen melding moet je per afvalsoort een automatisering maken met de sensor van die afvalsoort in plaats van de "tomorrow" sensor.
+Deze automatisering ondersteund meerdere afvalsoorten op 1 en dezelfde dag in 1 melding. Wil je voor elke afvalsoort een eigen melding dan moet je per afvalsoort een automatisering maken met de sensor van die afvalsoort in plaats van de "tomorrow" sensor.
