@@ -10,12 +10,16 @@ Inhoud:
 * [Afval vandaag en morgen Picture card](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afval-vandaag-en-morgen-picture-card)
 
 ## Afvalkalender
-* (screenshot)
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender-horizontaal.png)
+
 Geeft een simpel maar overzichtelijke lijst van alle sensoren die een datum bevatten met hun eerstvolgende datum. Sensoren met geen data worden automatisch verborgen. De lijst wordt gesorteerd zodat altijd de eerstvolgende als eerste in de lijst staat.
 ### installatie
 Kopieer de yaml code uit de [afvalkalender.yaml](../cards/afvalkalender.yaml) direct in een card.
 ### Configuratie
 Geen. Zie opmerkingen in de yaml
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender.png)
+
+Idem als afvalkalender maar geeft een verticale lijst. Gebruik [afvalkalender-lijst.yaml](../cards/afvalkalender-lijst.yaml) voor deze lijst
 
 ## Afvalkalender 2
 * (screenshot)
