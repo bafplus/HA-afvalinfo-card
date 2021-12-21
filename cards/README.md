@@ -16,7 +16,7 @@ Geeft een simpel maar overzichtelijke lijst van alle sensoren die een datum beva
 ### installatie
 Kopieer de yaml code uit de [afvalkalender.yaml](../cards/afvalkalender.yaml) direct in een card.
 ### Configuratie
-Geen. Zie opmerkingen in de yaml
+Geen. Zie eventueleopmerkingen in de yaml
 
 ![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender.png)
 
@@ -31,11 +31,13 @@ Kopieer de yaml code uit de afvalkalender-2.yaml direct in een card.
 Geen. Zie opmerkingen in de yaml
 
 ## Eerstvolgende afvalsoort(en)
-* (screenshot)
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afval-eerstvolgend.png)
+
+Geeft de afvalsoorten weer voor de aankomende week.
 ### installatie
-Kopieer de yaml code uit de eerstvolgende-afvalsoorten.yaml direct in een card.
+Kopieer de yaml code uit de [eerstvolgende-afvalsoorten.yaml](../cards/eerstvolgende-afvalsoorten.yaml) direct in een card.
 ### Configuratie
-Geen. Zie opmerkingen in de yaml
+Geen. Zie eventuele opmerkingen in de yaml
 
 ## Afval vandaag
 * (screenshot)
