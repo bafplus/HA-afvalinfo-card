@@ -1,0 +1,21 @@
+alias: Afvalmelding TTS
+description: Melding dag voor afval via gesproken bericht
+trigger:
+  - platform: time
+    at: '18:00'  # de tijd dat het bericht gestuurd wordt
+condition:
+  - condition: not
+    conditions:
+      - condition: state
+        entity_id: sensor.afvalinfo_thuis_tomorrow  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+        state: none
+action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.woonkamer #de entiteit van het apparaat wat de melding uit moet spreken
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.woonkamer #de entiteit van het apparaat wat de melding uit moet spreken
+      message: Morgen wordt het afval opgehaald. Zet de {{states.sensor.afvalinfo_thuis_tomorrow.state}} bak buiten.  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+mode: single
