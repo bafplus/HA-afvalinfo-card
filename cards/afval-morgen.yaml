@@ -1,0 +1,18 @@
+type: custom:auto-entities
+show_empty: false  # Laat deze card alleen zien de dag voor de ophaaldag (false), Laat altijd zien (true)
+card:
+  type: glance
+  show_state: true
+  show_name: true
+  title: Afval morgen
+  show_icon: true
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.afvalinfo_*
+      attributes:
+        days_until_collection_date: <= 1
+  exclude:
+    - state: unknown
+    - entity_id: sensor.*_today
+    - entity_id: sensor.*_tomorrow
