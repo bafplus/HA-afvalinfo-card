@@ -22,14 +22,6 @@ Geen. Zie eventueleopmerkingen in de yaml
 
 Idem als afvalkalender maar geeft een verticale lijst. Gebruik [afvalkalender-lijst.yaml](../cards/afvalkalender-lijst.yaml) voor deze lijst.
 
-## Afvalkalender 2
-* (screenshot)
-Afvalkalender met vaste sensoren
-### installatie
-Kopieer de yaml code uit de afvalkalender-2.yaml direct in een card.
-### Configuratie
-Geen. Zie opmerkingen in de yaml
-
 ## Eerstvolgende afvalsoort(en)
 ![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afval-eerstvolgend.png)
 
@@ -54,6 +46,14 @@ Geen. Zie opmerkingen in de yaml
 Geeft alle afvalsoorten die morgen opgehaald worden. De gehele card is alleen zichtbaar de dag voor de ophaaldag zelf.
 ### installatie
 Kopieer de yaml code uit de [afval-morgen.yaml](../cards/afval-morgen.yaml) direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
+## Afvalkalender 2
+* (screenshot)
+Afvalkalender met vaste sensoren
+### installatie
+Kopieer de yaml code uit de afvalkalender-2.yaml direct in een card.
 ### Configuratie
 Geen. Zie opmerkingen in de yaml
 
