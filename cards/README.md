@@ -40,16 +40,20 @@ Kopieer de yaml code uit de [eerstvolgende-afvalsoorten.yaml](../cards/eerstvolg
 Geen. Zie eventuele opmerkingen in de yaml
 
 ## Afval vandaag
-* (screenshot)
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afval-vandaag.png)
+
+Geeft alle afvalsoorten die vandaag opgehaald worden. De gehele card is alleen zichtbaar op ophaaldag zelf.
 ### installatie
-Kopieer de yaml code uit de afval-vandaag.yaml direct in een card.
+Kopieer de yaml code uit de [afval-vandaag.yaml](../cards/afval-vandaag.yaml) direct in een card.
 ### Configuratie
 Geen. Zie opmerkingen in de yaml
 
 ## Afval morgen
-* (screenshot)
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afval-morgen.png)
+
+Geeft alle afvalsoorten die morgen opgehaald worden. De gehele card is alleen zichtbaar de dag voor de ophaaldag zelf.
 ### installatie
-Kopieer de yaml code uit de afval-morgen.yaml direct in een card.
+Kopieer de yaml code uit de [afval-morgen.yaml](../cards/afval-morgen.yaml) direct in een card.
 ### Configuratie
 Geen. Zie opmerkingen in de yaml
 
