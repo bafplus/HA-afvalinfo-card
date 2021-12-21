@@ -10,17 +10,46 @@ Inhoud:
 * [Afval vandaag en morgen Picture card](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards#afval-vandaag-en-morgen-picture-card)
 
 ## Afvalkalender
-(screenshot)
-Geeft een overzichtelijke lijst van alle sensoren die een datum bevatten met hun eerstvolgende datum. Sensoren met geen data worden automatisch verborgen. De lijst wordt gesorteerd zodat altijd de eerstvolgende als eerste in de lijst staat.
+* (screenshot)
+Geeft een simpel maar overzichtelijke lijst van alle sensoren die een datum bevatten met hun eerstvolgende datum. Sensoren met geen data worden automatisch verborgen. De lijst wordt gesorteerd zodat altijd de eerstvolgende als eerste in de lijst staat.
+### installatie
+Kopieer de yaml code uit de afvalkalender.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
 ## Afvalkalender 2
-(screenshot)
+* (screenshot)
 Afvalkalender met vaste sensoren
+### installatie
+Kopieer de yaml code uit de afvalkalender-2.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
 ## Eerstvolgende afvalsoort(en)
-(screenshot)
+* (screenshot)
+### installatie
+Kopieer de yaml code uit de eerstvolgende-afvalsoorten.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
 ## Afval vandaag
-(screenshot)
+* (screenshot)
+### installatie
+Kopieer de yaml code uit de afval-vandaag.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
 ## Afval morgen
-(screenshot)
+* (screenshot)
+### installatie
+Kopieer de yaml code uit de afval-morgen.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
+
 ## Afval vandaag en morgen Picture card
-(screenshot)
+* (screenshot)
+* ### installatie
+Kopieer de yaml code uit de afval-vandaag-morgen-picturecard.yaml direct in een card.
+### Configuratie
+Geen. Zie opmerkingen in de yaml
 
