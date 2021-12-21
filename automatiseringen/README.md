@@ -24,4 +24,4 @@ Deze automatisering laat een slimme speaker een gesproken bericht geven met welk
 ### installatie
 Kopieer de yaml code uit de [melding-tts.yaml](../automatiseringen/melding-tts.yaml) direct in een automatisering. LET OP! Controleer goed of de naam van de sensor klopt!
 ### Configuratie
-Pas de nodige sensoren aan, zie YAMl
+Zorg ervoor dat TTS goed is ingesteld en werkt. Zie https://www.home-assistant.io/integrations/tts/ . Pas de nodige sensoren aan, zie YAMl
