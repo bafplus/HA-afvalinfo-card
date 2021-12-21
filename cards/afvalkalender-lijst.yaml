@@ -10,7 +10,7 @@ filter:
   include:
     - entity_id: sensor.afvalinfo_*_*
   exclude:
-    - state: unknown
+    - state: unknown  # Zorgt ervoor dat alleen de afvalsoorten met datum te zien zijn. Wil je ALLE sensoren verwijder dan deze regel.
     - entity_id: sensor.afvalinfo_*_today
     - entity_id: sensor.afvalinfo_*_tomorrow
 sort:
