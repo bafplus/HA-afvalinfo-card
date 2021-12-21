@@ -17,7 +17,7 @@ Hieronder een handleiding om alle benodigde zaken te installeren zoals alle inte
 
 * [Lovelace Cards](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards)
 * [Automatiseringen](https://github.com/bafplus/HA-afvalinfo-card/tree/main/automatiseringen)
-* [scripts](https://github.com/bafplus/HA-afvalinfo-card/tree/main/scripts)
+* [Scripts](https://github.com/bafplus/HA-afvalinfo-card/tree/main/scripts)
 
 ## Installatie Afvalinfo Integratie
 
