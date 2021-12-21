@@ -1,6 +1,8 @@
 # HA-afvalinfo-card
 Diverse lovelace cards voor de [Afvalinfo](https://github.com/heyajohnny/afvalinfo "Afvalinfo") integratie voor Home Assistant.
 
+![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender.png) ![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afval-vandaag.jpg) ![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender-horizontaal.png)
+
 Afvalinfo ondersteunt verreweg de meeste gemeenten in Nederland (zie [Afvalinfo](https://github.com/heyajohnny/afvalinfo "Afvalinfo") welke).
 Maar levert je enkel de nodige sensoren. Je zult dus zelf hier een lovelace card voor moeten maken of een automatisering om bv een push bericht te ontvangen de dag voordat het afval naar buiten moet.
 In deze repo probeer ik enkele lovelace cards en automatiseringen te verzamelen om direct te gebruiken of ter inspiratie.
