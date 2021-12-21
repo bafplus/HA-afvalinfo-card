@@ -20,7 +20,7 @@ Geen. Zie opmerkingen in de yaml
 
 ![alt text](https://github.com/bafplus/HA-afvalinfo-card/blob/main/screenshots/afvalkalender.png)
 
-Idem als afvalkalender maar geeft een verticale lijst. Gebruik [afvalkalender-lijst.yaml](../cards/afvalkalender-lijst.yaml) voor deze lijst
+Idem als afvalkalender maar geeft een verticale lijst. Gebruik [afvalkalender-lijst.yaml](../cards/afvalkalender-lijst.yaml) voor deze lijst.
 
 ## Afvalkalender 2
 * (screenshot)
