@@ -13,7 +13,7 @@ Inhoud:
 * (screenshot)
 Geeft een simpel maar overzichtelijke lijst van alle sensoren die een datum bevatten met hun eerstvolgende datum. Sensoren met geen data worden automatisch verborgen. De lijst wordt gesorteerd zodat altijd de eerstvolgende als eerste in de lijst staat.
 ### installatie
-Kopieer de yaml code uit de afvalkalender.yaml direct in een card.
+Kopieer de yaml code uit de [afvalkalender.yaml](../blob/main/cards/afvalkalender.yaml) direct in een card.
 ### Configuratie
 Geen. Zie opmerkingen in de yaml
 
