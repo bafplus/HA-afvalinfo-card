@@ -1,1 +1,19 @@
-
+type: custom:auto-entities
+card:
+  type: glance
+  show_state: true
+  show_name: true
+  title: Afvalkalender
+  show_icon: true
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.afvalinfo_*
+  exclude:
+    - state: unknown  # Zorgt ervoor dat alleen de afvalsoorten met datum te zien zijn. Wil je ALLE sensoren verwijder dan deze regel.
+    - entity_id: sensor.*_today
+    - entity_id: sensor.*_tomorrow
+sort:
+  method: atribute
+  attribute: days_until_collection_date
+  numeric: true
