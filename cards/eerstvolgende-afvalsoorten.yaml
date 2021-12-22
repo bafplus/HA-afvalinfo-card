@@ -10,8 +10,10 @@ filter:
   include:
     - entity_id: sensor.afvalinfo_*
       attributes:
-        days_until_collection_date: <= 6
+        days_until_collection_date: <= 7
   exclude:
+    - attributes:
+        days_until_collection_date: = 0
     - state: unknown
     - entity_id: sensor.*_today
     - entity_id: sensor.*_tomorrow
