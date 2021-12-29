@@ -1,0 +1,20 @@
+alias: Afvalmelding TTS Grijze bak
+description: Melding dag voor afval via gesproken bericht
+trigger:
+  - platform: time
+    at: '18:00'
+condition:
+  - condition: state
+    entity_id: sensor.afvalinfo_thuis_restafval
+    attribute: days_until_collection_date
+    state: 1
+action:
+  - service: media_player.volume_set
+    data:
+      volume_level: 0.5
+    entity_id: media_player.woonkamer
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.woonkamer
+      message: Morgen wordt het restafval opgehaald. Zet de grijze bak buiten.
+mode: single
