@@ -1,28 +1,28 @@
-sensor.afvalinfo_thuis_gft:
+sensor.afvalinfo_gft:
   entity_picture: /local/images/gft-icon.png
   friendly_name: GFT
   icon: mdi:leaf
-sensor.afvalinfo_thuis_restafval:
+sensor.afvalinfo_restafval:
   entity_picture: /local/images/restafval-icon.png
   friendly_name: Restafval
   icon: mdi:trash-can-outline
-sensor.afvalinfo_thuis_pbd:
+sensor.afvalinfo_pbd:
   entity_picture: /local/images/pmd-icon.png
   friendly_name: Plastic
   icon: mdi:bottle-soda-classic
-sensor.afvalinfo_thuis_papier:
+sensor.afvalinfo_papier:
   entity_picture: /local/images/papier-icon.png
   friendly_name: Papier
   icon: mdi:package-variant
-sensor.afvalinfo_thuis_textiel:
+sensor.afvalinfo_textiel:
   entity_picture: /local/images/textiel-icon.png
   friendly_name: Textiel
   icon: mdi:tshirt-crew
-sensor.afvalinfo_thuis_kerstboom:
+sensor.afvalinfo_kerstboom:
   entity_picture: /local/images/kerstboom-icon.png
   friendly_name: Kerstboom
   icon: mdi:pine-tree
-sensor.afvalinfo_thuis_takken:
+sensor.afvalinfo_takken:
   entity_picture: /local/images/takken-icon.png
   friendly_name: Takken
   icon: mdi:tree
