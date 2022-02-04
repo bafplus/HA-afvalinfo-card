@@ -7,7 +7,7 @@ condition:
   - condition: not
     conditions:
       - condition: state
-        entity_id: sensor.afvalinfo_thuis_tomorrow  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+        entity_id: sensor.afvalinfo_tomorrow  
         state: none
 action:
   - service: media_player.volume_set
