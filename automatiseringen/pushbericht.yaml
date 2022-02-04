@@ -7,11 +7,11 @@ condition:
   - condition: not
     conditions:
       - condition: state
-        entity_id: sensor.afvalinfo_thuis_tomorrow  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+        entity_id: sensor.afvalinfo_tomorrow 
         state: none
 action:
   - service: notify.notify
     data:
-      message: 'Afval morgen: {{states.sensor.afvalinfo_thuis_tomorrow.state}}'  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+      message: 'Afval morgen: {{states.sensor.afvalinfo_tomorrow.state}}'  
       title: Afval morgen
 mode: single
