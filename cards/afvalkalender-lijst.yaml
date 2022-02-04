@@ -8,11 +8,11 @@ card:
   state_color: false
 filter:
   include:
-    - entity_id: sensor.afvalinfo_*_*
+    - entity_id: sensor.afvalinfo_*
   exclude:
     - state: unknown  # Zorgt ervoor dat alleen de afvalsoorten met datum te zien zijn. Wil je ALLE sensoren verwijder dan deze regel.
-    - entity_id: sensor.afvalinfo_*_today
-    - entity_id: sensor.afvalinfo_*_tomorrow
+    - entity_id: sensor.afvalinfo_today
+    - entity_id: sensor.afvalinfo_tomorrow
 sort:
   method: attribute
   attribute: days_until_collection_date
