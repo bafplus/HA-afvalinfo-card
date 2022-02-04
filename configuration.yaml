@@ -2,7 +2,6 @@ sensor: # Als je al een sensor blok hebt in je configuratie dan deze regel NIET 
 
 # Afvalinfo
   - platform: afvalinfo       # naam van de integratie, in dit geval dus afvalinfo
-    id: Thuis                 # optioneel. Een ID voor als je meerdere lokaties wilt weergeven bijvoorbeeld "thuis" en "werk". Je kunt deze hele regel ook wissen om geen ID te gebruiken.
     resources:                # De sensors voor alle afvalsoorten die jouw gemeente ondersteund. Verwijder de afvalsoorten die je gemeente niet heeft en/of die je niet weer wilt geven in HA
       - gft
       - kerstboom
