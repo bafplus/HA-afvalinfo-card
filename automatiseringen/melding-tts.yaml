@@ -17,5 +17,5 @@ action:
   - service: tts.google_translate_say
     data:
       entity_id: media_player.woonkamer #de entiteit van het apparaat wat de melding uit moet spreken
-      message: "Morgen wordt het afval opgehaald. Zet de {{states.sensor.afvalinfo_thuis_tomorrow.state}} bak buiten."  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+      message: "Morgen wordt het afval opgehaald. Zet de {{states.sensor.afvalinfo_tomorrow.state}} bak buiten."  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
 mode: single
