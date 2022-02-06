@@ -14,5 +14,5 @@ filter:
         is_collection_date_today: true
   exclude:
     - state: unknown
-    - entity_id: sensor.*_today
-    - entity_id: sensor.*_tomorrow
+    - entity_id: sensor.afvalinfo_today
+    - entity_id: sensor.afvalinfo_tomorrow
