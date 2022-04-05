@@ -14,6 +14,6 @@ filter:
     - entity_id: sensor.afvalinfo_today
     - entity_id: sensor.afvalinfo_tomorrow
 sort:
-  method: atribute
+  method: attribute
   attribute: days_until_collection_date
   numeric: true
