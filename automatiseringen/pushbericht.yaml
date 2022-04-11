@@ -7,11 +7,11 @@ condition:
   - condition: not
     conditions:
       - condition: state
-        entity_id: sensor.afvalinfo_tomorrow 
+        entity_id: sensor.afvalinfo_afval_voor_morgen
         state: none
 action:
   - service: notify.notify
     data:
-      message: 'Afval morgen: {{states.sensor.afvalinfo_tomorrow.state}}'  
+      message: 'Afval morgen: {{states.sensor.afvalinfo_afval_voor_morgen.state}}'  
       title: Afval morgen
 mode: single
