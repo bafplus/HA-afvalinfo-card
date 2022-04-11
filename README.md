@@ -1,3 +1,5 @@
+## LET OP! Door laatste update is het een en ander veranderd. Alle code in de repo is al aangepast maar door gebrek aan tijd zijn de readme's nog niet hierop aangepast!
+
 # HA-afvalinfo-card
 Diverse lovelace cards voor de [Afvalinfo](https://github.com/heyajohnny/afvalinfo "Afvalinfo") integratie voor Home Assistant.
 
