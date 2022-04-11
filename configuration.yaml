@@ -1,17 +1,26 @@
 sensor: # Als je al een sensor blok hebt in je configuratie dan deze regel NIET kopieren
 
 # Afvalinfo
-  - platform: afvalinfo       # naam van de integratie, in dit geval dus afvalinfo
-    resources:                # De sensors voor alle afvalsoorten die jouw gemeente ondersteund. Verwijder de afvalsoorten die je gemeente niet heeft en/of die je niet weer wilt geven in HA
-      - gft
-      - kerstboom
-      - pbd
-      - papier
-      - takken                # Ophalen van takken wordt ondersteund door ongeveer 50% van de gemeenten
-      - restafval
-      - textiel
-      - trash_type_today
-      - trash_type_tomorrow
+  - platform: afvalinfo       # naam van de integratie, in dit geval dus afvalinfo               
+    resources:     # De sensors voor alle afvalsoorten die jouw gemeente ondersteund. Verwijder de afvalsoorten die je gemeente niet heeft en/of die je niet weer wilt geven in HA
+      - type: gft
+        friendly_name: Groene bak
+      - type: kerstboom
+        friendly_name: Kerstboom
+      - type: pbd
+        friendly_name: Plastic zakken
+      - type: papier
+        friendly_name: Karton en Papier
+      - type: takken
+        friendly_name: Takken
+      - type: restafval
+        friendly_name: Grijze bak
+      - type: textiel
+        friendly_name: Textiel zakken
+      - type: trash_type_today
+        friendly_name: Afval voor vandaag
+      - type: trash_type_tomorrow
+        friendly_name: Afval voor morgen
     location: drimmelen       # De naam van jouw gemeente
     postcode: 1234AA          # Jouw postcode format: 1234AA
     streetnumber: 24          # Jouw huisnummer zonder toevoegingen
