@@ -33,17 +33,19 @@ Hieronder volgt een beknopte installatieinstructie:
 1. Installeer HACS als je dat nog niet gedaan hebt. Meer informatie en instructies: [HACS](https://hacs.xyz/docs/setup/prerequisites "HACS").
 2. Installeer [Afvalinfo](https://github.com/heyajohnny/afvalinfo "Afvalinfo") in HACS
 3. Herstart HA
-4. Gebruik configuratie zoals in [configuration.yaml](https://github.com/bafplus/HA-afvalinfo-card/blob/main/configuration.yaml "configuration.yaml") in deze repo. Loop even alle regels door en pas in ieder geval je gemeente en adresgegevens aan. Bij elke functie staat een opmerking over het hoe en wat.
-5. Herstart HA
+4. Ga in HA naar instellingen->integraties en voeg Afvalinfo toe. Deze zal de nodige basisgegevens van je vragen zoals naam van je locatie (standaard "home"), je postcode, huisnummer en gemeente en eventuele aanvullende gegevens mocht jouw gemeente dat nodig hebben. Heb je deze gegevens niet, (zoals niet elke gemeente gebruikt de diftar code) laat deze dan simpelweg leeg. Postcode, huisnummer en gemeente zijn vereist.
+5. Onderaan kun je alle beschikbare sensoren toevoegen, kies hier welke afvalsoorten je in HA terug wilt zien en vergeet ook zeker de 2 sensoren voor afval-vandaag en afval-morgen niet!
+6. Klik op "toevoegen"
+7. Herstart HA
 
-Gefeliciteerd! Je hebt nu de afvalintegratie geinstalleerd en heb je 9 sensoren in HA (7 sensoren voor elke afvalsoorten en 2 algemene sensoren voor het afval van vandaag en morgen). Let op! Het kan even duren voordat er data binnenkomt.
+Gefeliciteerd! Je hebt nu de afvalintegratie geinstalleerd en heb je diverse sensoren in HA (afhankelijk welke je in stap 5 toegevoegd hebt en de 2 algemene sensoren voor het afval van vandaag en morgen). Let op! Het kan even duren voordat er data binnenkomt.
 
 ## Installatie benodigdheden voor de cards in deze repo
 ### Afbeeldingen, iconen en naam sensoren
 Alle sensoren hebben dezelfde icoontjes en hebben als naam de naam van de sensor. Middels deze aanpassing wijzen we voor elke sensor een eigen Friendly name, icoon en afbeelding toe zodat wij deze niet overal hoeven aan te passen in de code maar op 1 centrale plek.
 1. In de rootmap van HA (waar configuration.yaml staat) heb je als het goed is een customize.yaml staan. Zo niet maak deze dan aan en open deze in bv File Editor.
 2. Copy paste de code van [customize.yaml](https://github.com/bafplus/HA-afvalinfo-card/blob/main/costumize.yaml) in deze repo
-3. Controleer goed of alle namen van de sensoren kloppen en pas deze waar nodig aan.
+3. Controleer goed of alle namen van de sensoren kloppen en pas deze waar nodig aan. Let hier vooral goed op de naam van de sensoren, zo wordt bijvoorbeeld de naam die je tijdens het installeren hebt opgegeven (standaard "home") in elke sensor toegevoegd. Heb je hier wat anders gebruikt moet je dit bij alle sensoren goed aanpassen!
 4. Sla het bestand op.
 5. Ga naar je configuration.yaml en zet de volgende code helemaal aan het BEGIN van je yaml. Als hier al "Homeassistant:" staat dan hoef je alleen de 2e regel toe te voegen.
 ```yaml
