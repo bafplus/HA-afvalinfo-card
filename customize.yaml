@@ -1,20 +1,20 @@
-sensor.afvalinfo_groene_bak:
+sensor.afvalinfo_home_gft:
   entity_picture: /local/images/gft-icon.png
 
-sensor.afvalinfo_grijze_bak:
+sensor.afvalinfo_home_restafval:
   entity_picture: /local/images/restafval-icon.png
 
-sensor.afvalinfo_plastic_zakken:
+sensor.afvalinfo_home_pbd:
   entity_picture: /local/images/pmd-icon.png
 
-sensor.afvalinfo_karton_en_papier:
+sensor.afvalinfo_home_papier:
   entity_picture: /local/images/papier-icon.png
 
-sensor.afvalinfo_textiel_zakken:
+sensor.afvalinfo_home_textiel:
   entity_picture: /local/images/textiel-icon.png
 
-sensor.afvalinfo_kerstboom:
+sensor.afvalinfo_home_kerstboom:
   entity_picture: /local/images/kerstboom-icon.png
 
-sensor.afvalinfo_takken:
+sensor.afvalinfo_home_takken:
   entity_picture: /local/images/takken-icon.png

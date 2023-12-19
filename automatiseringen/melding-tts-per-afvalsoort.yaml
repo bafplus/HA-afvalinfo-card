@@ -5,7 +5,7 @@ trigger:
     at: '18:00'
 condition:
   - condition: state
-    entity_id: sensor.afvalinfo_restafval
+    entity_id: sensor.afvalinfo_home_restafval
     attribute: days_until_collection_date
     state: 1
 action:

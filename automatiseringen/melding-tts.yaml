@@ -7,7 +7,7 @@ condition:
   - condition: not
     conditions:
       - condition: state
-        entity_id: sensor.afvalinfo_afval_voor_morgen  
+        entity_id: sensor.afvalinfo_home_trash_type_tomorrow  
         state: none
 action:
   - service: media_player.volume_set
@@ -17,5 +17,5 @@ action:
   - service: tts.google_translate_say
     data:
       entity_id: media_player.woonkamer #de entiteit van het apparaat wat de melding uit moet spreken
-      message: "Morgen wordt het afval opgehaald. Zet de {{states.sensor.afvalinfo_afval_voor_morgen.state}} buiten."  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
+      message: "Morgen wordt het afval opgehaald. Zet de {{states.sensor.afvalinfo_home_trash_type_tomorrow.state}} buiten."  #Let goed op of de naam van deze sensor klopt, met name het 3e gedeelte!
 mode: single
