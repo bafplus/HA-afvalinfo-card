@@ -44,7 +44,7 @@ Gefeliciteerd! Je hebt nu de afvalintegratie geinstalleerd en heb je diverse sen
 ### Afbeeldingen, iconen en naam sensoren
 Alle sensoren hebben dezelfde icoontjes en hebben als naam de naam van de sensor. Middels deze aanpassing wijzen we voor elke sensor een eigen Friendly name, icoon en afbeelding toe zodat wij deze niet overal hoeven aan te passen in de code maar op 1 centrale plek.
 1. In de rootmap van HA (waar configuration.yaml staat) heb je als het goed is een customize.yaml staan. Zo niet maak deze dan aan en open deze in bv File Editor.
-2. Copy paste de code van [customize.yaml](https://github.com/bafplus/HA-afvalinfo-card/blob/main/costumize.yaml) in deze repo
+2. Copy paste de code van [customize.yaml](https://github.com/bafplus/HA-afvalinfo-card/blob/main/customize.yaml) in deze repo
 3. Controleer goed of alle namen van de sensoren kloppen en pas deze waar nodig aan. Let hier vooral goed op de naam van de sensoren, zo wordt bijvoorbeeld de naam die je tijdens het installeren hebt opgegeven (standaard "home") in elke sensor toegevoegd. Heb je hier wat anders gebruikt moet je dit bij alle sensoren goed aanpassen!
 4. Sla het bestand op.
 5. Ga naar je configuration.yaml en zet de volgende code helemaal aan het BEGIN van je yaml. Als hier al "Homeassistant:" staat dan hoef je alleen de 2e regel toe te voegen.
