@@ -17,6 +17,8 @@ Meer details hierover verder in deze handleiding.
 Heb je zelf een mooie card of automatisering of variatie gemaakt maak hier gerust een PR voor aan dan zal ik deze in de lijst opnemen.
 Belangrijk hierbij is dat dit zo universeel mogelijk moet werken door gebruik te maken van dezelfde wildcards etc zodat het voor eindgebruikers zo makkelijk mogelijk is om alles werkend te krijgen.
 
+Template card met Mushroom (Sven Heijthuijzen) https://github.com/Heijtse/HA_AfvalInfo
+
 Hieronder een handleiding om alle benodigde zaken te installeren zoals alle integraties, iconen en configuratie. Heb je dit alles al kun je via de volgende links naar de cards, automatiseringen en verder zaken springen. Daar vindt je dan weer meer informatie.
 
 * [Lovelace Cards](https://github.com/bafplus/HA-afvalinfo-card/tree/main/cards)
